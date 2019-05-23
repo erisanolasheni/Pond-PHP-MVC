@@ -1,0 +1,40 @@
+.header {}
+
+.banner {
+    width: 100%;
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+    font-size: 45px;
+    text-transform: capitalize;
+    height: 300px;
+    line-height: 300px;
+}
+
+.banner .after {
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .7);
+}
+
+.banner .before {
+    background: url() center no-repeat #eee/100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* For cards */
+
+.card > a {
+    text-decoration: none;
+}
+.card-columns a {
+    color: inherit;
+}
+/* For end cards */
